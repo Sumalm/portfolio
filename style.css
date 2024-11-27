@@ -1,0 +1,99 @@
+/* GLOBAL---------------*/
+a{
+    color:#54eb7c;
+}
+a:hover{
+    color: blanchedalmond;
+}
+footer a{
+    color:rgb(215, 33, 157)
+}
+footer a:hover{
+    color:rgb(219, 54, 234)
+}
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+.btn{
+background-color: #252930;
+}
+/* INDEX PAGE ---------------*/
+.home{
+    background-image: url(./dot.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  flex-direction:column ;
+  
+}
+
+.home .content-wrapper
+{
+    background:#edebe6;
+    flex: 1 0 auto;
+    
+}
+.footer
+{
+    margin-top: 450px;
+    background:#92b1bb;
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    padding: 2px;
+   
+}   
+
+.tags{
+    list-style-type: none;
+    padding:0;
+}
+.tags li{
+    display:inline-block;
+    margin-right: 30px;
+}
+.tags img:hover{
+    opacity: 0.0;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+.content-wrapper{
+    margin: 0 auto;
+    width: 900px;
+    height:250px;
+}
+/* RESUME PAGE---------------*/
+.resume header::before{
+    background: url(./dot1.jpg);
+    background-size:cover ;
+    display:block;
+    height: 375px;
+    content:"";
+}
+
+.project-items{
+    display: flow-root;
+}
+.project-items img{
+    width:200px;
+    float:left;
+    margin-right: 0%;
+
+}
+.resume-section{
+    margin-bottom: 50px;
+
+}
+.resume-section h2{
+    border-bottom: 2px dashed #252930;
+}
+.download-link{
+    position:fixed;
+    top: 5px;
+    left: 5px;
+}
